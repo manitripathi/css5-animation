@@ -1,0 +1,135 @@
+.pbox{
+    border-spacing: 40px;
+    
+}
+.box1{
+    background-color: blue;
+    width:60px;
+    height:60px;
+    animation-name: skew-chngeX;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes skew-chngeX {
+    100%{
+            transform: skewX(-30deg);
+    }
+}
+.box2{
+    background-color: gray;
+    width:60px;
+    height:60px;
+    animation-name: skew-chngeY;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes skew-chngeY {
+    100%{
+            transform: skewY(-30deg);
+    }
+}
+.box3{
+    background-color: blue;
+    width:60px;
+    height:60px;
+    animation-name: skew-chngeY1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes skew-chngeY1 {
+    100%{
+            transform: skewY(20deg);
+    }
+}
+.box4{
+    width:60px;
+    height:60px;
+}
+.box41{
+    background-color: blue;
+    animation-name: rotateX-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotateX-change {
+    100%{
+        transform: rotateX(1turn);
+    }
+}
+.box42{
+    background-color: mediumvioletred;
+    animation-name: rotateY-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotateY-change {
+    100%{
+        transform: rotateY(1turn);
+    }
+}
+.box43{
+    background-color: darkseagreen;
+    animation: skewY2 2s infinite;
+}
+@keyframes skewY2 {
+    100%{
+        transform: skewY(10deg);
+    }
+}
+.cpbox{
+    border-spacing: 10px;
+}
+.cbox{
+    width:80px;
+    height:80px;
+    background-color: lawngreen;
+}
+.b1{
+    transition: width;
+}
+.b1:hover{
+    width:300px;
+}
+.b2{
+    transition: width;
+    transition: height;
+}
+.b2:hover{
+    width:300px;
+    height:300px;
+}
+.b3{
+    transition-timing-function: linear;
+    transition: width 2s;
+}
+.b3:hover{
+    width:300px;
+}
+.b4{
+    transition-timing-function: ease;
+    transition: width 2s;
+}
+.b4:hover{
+    width:300px;
+}
+.b5{
+    transition-timing-function: ease-in;
+    transition: width 2s;
+}
+.b5:hover{
+    width:300px;
+}
+.b6{
+    transition-timing-function: ease-out;
+    transition: width 2s;
+}
+.b6:hover{
+    width:300px;
+}
+.b7{
+    transition-timing-function: ease-in-out;
+    transition: width 2s;
+}
+.b7:hover{
+    width:300px;
+}
